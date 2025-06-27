@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 100%;
+  direction: rtl;
+  font-family: "Gabarito", sans;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+li {
+  list-style: none;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url(../fonts/Iranian\ Sans.ttf);
+}
+@font-face {
+  font-family: "serif";
+  src: url(../fonts/W\ tahoma\ .ttf);
+}
+.gabarito {
+  font-family: "Gabarito", sans-serif;
+}
